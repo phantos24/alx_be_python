@@ -5,5 +5,5 @@ monthly_savings = monthly_income - monthly_expense
 
 projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
-print("Your monthly savings are $%d." % (monthly_savings))
-print("Projected savings after one year, with interest, is: $%d." % (projected_savings))
+print("Your monthly savings are $%f." % (monthly_savings))
+print("Projected savings after one year, with interest, is: $%f." % (projected_savings))
