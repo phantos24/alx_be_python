@@ -33,5 +33,5 @@ class Library():
 
     def list_books(self):
         for x in range(len(self.books)):
-            print (self.books[x])
+            print (f"{type(x).__name}: {self.books[x]}")
 
