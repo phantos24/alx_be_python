@@ -15,7 +15,7 @@ while (True):
         degree = float(input("Enter the temperature to convert: "))
         break
     except:
-         print("please enter a vaild degree: ")
+         print("Invalid temperature. Please enter a numeric value.")
 
        
 
