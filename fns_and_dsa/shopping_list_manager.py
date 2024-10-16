@@ -14,7 +14,7 @@ def main():
 
         match (choice):
             case "1":
-                item = str(input("please pick an item to add: "))
+                item = str(input("Enter the item to add: "))
                 shopping_list.append(item)
             
             case "2":
